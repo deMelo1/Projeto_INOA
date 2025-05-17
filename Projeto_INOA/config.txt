@@ -1,0 +1,4 @@
+destinatário (demelo@ime.eb.br)
+servidor SMTP (smtp://smtp.gmail.com:587)
+remetente (lucasdemelomacedo14@gmail.com)
+senha (abcd efgh ijkl mnop)

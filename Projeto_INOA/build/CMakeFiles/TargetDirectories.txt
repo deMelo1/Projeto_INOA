@@ -1,0 +1,3 @@
+C:/Projeto_INOA/build/CMakeFiles/Projeto_INOA.dir
+C:/Projeto_INOA/build/CMakeFiles/ALL_BUILD.dir
+C:/Projeto_INOA/build/CMakeFiles/ZERO_CHECK.dir

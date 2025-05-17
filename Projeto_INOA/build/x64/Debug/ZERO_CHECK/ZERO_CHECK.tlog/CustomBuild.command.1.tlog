@@ -1,0 +1,10 @@
+^C:\PROJETO_INOA\BUILD\CMAKEFILES\64C5E2AFD3EB0E41BBA217A7C6F52C43\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projeto_INOA -BC:/Projeto_INOA/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projeto_INOA/build/StockPriceApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

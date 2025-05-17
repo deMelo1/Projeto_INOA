@@ -1,0 +1,2 @@
+cmake --build build (compilar)
+.\build\Debug\Projeto_INOA.exe AAPL 40.0 30.0 (executar)
