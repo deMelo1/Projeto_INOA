@@ -49,7 +49,7 @@ Ex.:
 
 ## Configuração da chave da API da Alpha Vantage
 
-Configurar a variável de ambiente `ALPHAVANTAGE_API_KEY`:
+Configurar a variável de ambiente ALPHAVANTAGE_API_KEY:
 
 Terminal  
    setx ALPHAVANTAGE_API_KEY "SUA_CHAVE_AQUI" 
