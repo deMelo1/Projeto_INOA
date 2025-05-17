@@ -9,10 +9,10 @@
 
 O arquivo deve conter exatamente 4 linhas, sem espaços em branco extras:
 
-destinatario    # Ex.: destino@dominio.com
-smtp_url        # Ex.: smtp://smtp.gmail.com:587
-remetente       # Ex.: seuemail@gmail.com
-senha           # Ex.: sua senha
+destinatario    # Ex.: destino@dominio.com  
+smtp_url        # Ex.: smtp://smtp.gmail.com:587  
+remetente       # Ex.: seuemail@gmail.com  
+senha           # Ex.: sua senha  
 
 
 ## Build
