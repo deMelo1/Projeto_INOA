@@ -19,31 +19,31 @@ senha           # Ex.: sua senha
 
 1. Clone ou posicione o vcpkg em C:/vcpkg e instale as dependências:
 
-Terminal
-   cd C:/vcpkg
-   .\vcpkg install curl nlohmann-json
-   .\vcpkg integrate install
+Terminal  
+   cd C:/vcpkg  
+   .\vcpkg install curl nlohmann-json  
+   .\vcpkg integrate install  
 
 
 2. Gere o projeto com CMake, apontando para o toolchain do vcpkg:
 
-Terminal
-   cd C:/Projeto_INOA
+Terminal  
+   cd C:/Projeto_INOA  
    cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake (tudo na mesma linha)
 
 
 
 3. Compile o executável:
 
-Terminal
+Terminal  
    cmake --build build
 
 ## Uso
 
-Terminal
+Terminal  
     projeto_acao.exe TICKER VALOR_MÁXIMO VALOR_MÍNIMO
 
-Ex.:
+Ex.:  
 \build\projeto_acao.exe PETR4.SA 30.00 25.00
 
 
@@ -51,6 +51,7 @@ Ex.:
 
 Configurar a variável de ambiente `ALPHAVANTAGE_API_KEY`:
 
-Terminal: setx ALPHAVANTAGE_API_KEY "SUA_CHAVE_AQUI" 
+Terminal  
+   setx ALPHAVANTAGE_API_KEY "SUA_CHAVE_AQUI" 
 
 Troque SUA_CHAVE_AQUI pela sua chave
