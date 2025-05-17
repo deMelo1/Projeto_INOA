@@ -63,4 +63,4 @@ Terminal
    setx ALPHAVANTAGE_API_KEY "SUA_CHAVE_AQUI" 
 ```
 
-Troque SUA_CHAVE_AQUI pela sua chave
+Troque SUA_CHAVE_AQUI pela sua chave.
